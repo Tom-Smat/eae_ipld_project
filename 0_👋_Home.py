@@ -67,7 +67,7 @@ Witnessing elegant and intelligent code solving complex problems is deeply impre
 It's during these moments that I believe we have only scratched the surface of what computers,data can achieve,
  and I'm driven to find simple solutions to the programming challenges I encounter.
 
-- 🤖 Data Visualisation web application  PYTHON                           https://eaeipldproject-exp6djhszaqrcm8rq9fyqn.streamlit.app/
+- 🤖 Data Visualisation web application  PYTHON                           https://datavisualisation.streamlit.app/
      hospital management    JAVAFX/Springbook/Angular                     https://github.com/FallouFall/Hoggy_Web
      School management      JEE/Springbook/Continuous Integration         https://github.com/FallouFall/GestionScolaire
      School management      JEE/Springbook/Continuous Integration/RMI     https://github.com/FallouFall/ServeurGestionEtudiant
