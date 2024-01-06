@@ -15,7 +15,7 @@ with st.sidebar:
     st.header("Introduction to Programming Languages for Data")
     st.write("###")
     st.write("***Final Project - Dec 2023***")
-    st.write("**Author:**")
+    st.write("**Author:TOMILOLA**")
     st.write("**Instructor:** ")
 
 
@@ -56,7 +56,7 @@ st.write("""
 - 🧑‍💻 I am a Student at EAE Business School 
 
 - 🛩️ prev:
-- ❤️ I am a technology enthusiast,A bussness.
+- ❤️ I am a technology enthusiast,A bussness MAN.
 
 - 🤖 
   
