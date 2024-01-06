@@ -60,8 +60,8 @@ max_date = temps_df['Date'].max()
 # TODO:  Ex 3.5: What are the global minimum and maximum temperatures? Find the city and the date of each of them.
 min_temp = temps_df['AvgTemperatureCelsius'].min()  # TODO
 max_temp =  temps_df['AvgTemperatureCelsius'].max()  # TODO
-
-
+min_temp_city=NONE
+max_temp_date=NONE
 
 # ----- Displaying the extracted information metrics -----
 
@@ -127,7 +127,9 @@ if unique_countries_list is not None and len(selected_cities) > 0 :
     for city in selected_cities :
         city_df = temps_df.query('City ==@city')  # TODO
         city_df_period = city_df.query('Date>@start_date & Date<@end_date')  # TODO
-        plt.plot(city_df['Date'] , city_df['AvgTemperatureCelsius'] , label = f'Temp °C in {city}')  # TODO
+
+            
+    plt.plot(city_df['Date'] , city_df['AvgTemperatureCelsius'] , label = f'Temp °C in {city}')  # TODO
     plt.title(f'Temperature {city} ({start_date} to {end_date})')  # TODO
     plt.xlabel('Time')  # TODO
     plt.ylabel(' AVG Temperature (°C)')  # TODO
