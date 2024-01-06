@@ -6,7 +6,7 @@ import streamlit as st
 
 # ----- Page configs -----
 st.set_page_config(
-        page_title = Portfolio" ,
+        page_title =" Portfolio" ,
         page_icon = "📊" ,
         )
 
