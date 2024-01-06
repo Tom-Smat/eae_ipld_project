@@ -61,7 +61,7 @@ max_date = temps_df['Date'].max()
 min_temp = temps_df['AvgTemperatureCelsius'].min()  # TODO
 max_temp =  temps_df['AvgTemperatureCelsius'].max()  # TODO
 
-min_temp_city =temps_df.loc[temps_df['AvgTemperatureCelsius'].idxmin(), 'City'] # TODO
+min_temp_city = temps_df.loc[temps_df['AvgTemperatureCelsius'].idxmin(), 'City'] # TODO
 min_temp_date = temps_df.loc[temps_df['AvgTemperatureCelsius'].idxmin(), 'Date']   # TODO
 
 max_temp_city = temps_df.loc[temps_df['AvgTemperatureCelsius'].idxmax(), 'City']  # TODO
