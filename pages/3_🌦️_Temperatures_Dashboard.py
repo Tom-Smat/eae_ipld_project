@@ -61,11 +61,7 @@ max_date = temps_df['Date'].max()
 min_temp = temps_df['AvgTemperatureCelsius'].min()  # TODO
 max_temp =  temps_df['AvgTemperatureCelsius'].max()  # TODO
 
-min_temp_city =# TODO
-min_temp_date =   # TODO
 
-max_temp_city =  # TODO
-max_temp_date =   # TODO
 
 # ----- Displaying the extracted information metrics -----
 
