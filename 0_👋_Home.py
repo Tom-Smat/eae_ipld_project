@@ -56,12 +56,12 @@ st.write("""
 - 🧑‍💻 I am a Student at EAE Business School 
 
 - 🛩️ prev:
-- ❤️ I am a technology enthusiast.
+- ❤️ I am a technology enthusiast,A bussness.
 
 - 🤖 
   
 
-- 📫 How to reach me: 
+- 📫 How to reach me:  https://github.com/Tom-Smat/
 
 - 🏠 Barcelona: Barcelona 
 """)
