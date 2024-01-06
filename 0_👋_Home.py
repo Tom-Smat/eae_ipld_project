@@ -21,7 +21,7 @@ with st.sidebar:
 
 # ----- Top title -----
 st.write(
-        f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Fallou Fall</h1></div>""" ,
+        f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Tomi Lola</h1></div>""" ,
         unsafe_allow_html = True)  # TODO: Add your name
 
 
