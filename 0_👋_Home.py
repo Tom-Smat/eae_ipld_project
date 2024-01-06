@@ -4,7 +4,7 @@ import streamlit as st
 
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-        page_title = "Fallou Fall Portfolio" ,
+        page_title = "Tomi Portfolio" ,
     page_icon="📊",
 )
 
@@ -15,8 +15,8 @@ with st.sidebar:
     st.header("Introduction to Programming Languages for Data")
     st.write("###")
     st.write("***Final Project - Dec 2023***")
-    st.write("**Author:**[Fallou Fall  ](https://github.com/FallouFall)")
-    st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
+    st.write("**Author:**")
+    st.write("**Instructor:** ")
 
 
 # ----- Top title -----
@@ -55,28 +55,15 @@ st.subheader("About Me")
 st.write("""
 - 🧑‍💻 I am a Student at EAE Business School 
 
-- 🛩️ prev: I am a certified software engineer specializing in Java. Over the past three years, I have worked at a mid-sized startup, marking my first job after graduating from college.
- While I have accumulated valuable experience in coding during this time, I am currently aiming to shift away from coding while retaining a technical focus. 
-My current interest lies in becoming a Big Data Analyst, which is why I am pursuing another master's degree at EAE Business School.
+- 🛩️ prev:
+- ❤️ I am a technology enthusiast.
 
-- ❤️ I am a technology enthusiast. My love for computers is all-encompassing—I find joy in every aspect of them. 
-From coding and debugging for eight to ten hours a day to engaging in discussions about coding practices with fellow programmers, computers are at the center of my professional life. 
-Even outside the realm of programming, I extend my passion by teaching about computers at the primary school in my neighborhood .
-The thrill of a new Linux kernel release or the availability of a groundbreaking web application for beta testing excites me to no end. 
-Witnessing elegant and intelligent code solving complex problems is deeply impressive. 
-It's during these moments that I believe we have only scratched the surface of what computers,data can achieve,
- and I'm driven to find simple solutions to the programming challenges I encounter.
+- 🤖 
+  
 
-- 🤖 Data Visualisation web application  PYTHON                           https://datavisualisation.streamlit.app/
-     hospital management    JAVAFX/Springbook/Angular                     https://github.com/FallouFall/Hoggy_Web
-     School management      JEE/Springbook/Continuous Integration         https://github.com/FallouFall/GestionScolaire
-     School management      JEE/Springbook/Continuous Integration/RMI     https://github.com/FallouFall/ServeurGestionEtudiant
-     School management      JEE/Springbook/Continuous Integration/RMI     https://github.com/FallouFall/ClientGestionEtudiants
+- 📫 How to reach me: 
 
-- 📫 How to reach me: falloufalllive@gmail.com
-    https://www.linkedin.com/in/fallou-fall-047675173/
-
-- 🏠 Barcelona: Lloret del Mar Barcelona 
+- 🏠 Barcelona: Barcelona 
 """)
 
 # Feel free to add other points like your Linkedin, Github, Social Media, etc.
