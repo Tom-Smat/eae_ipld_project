@@ -8,7 +8,7 @@ from PIL import Image
 
 # ----- Page configs -----
 st.set_page_config(
-        page_title = "Fallou Fall Portfolio" ,
+        page_title = " Portfolio" ,
     page_icon="📊",
 )
 
