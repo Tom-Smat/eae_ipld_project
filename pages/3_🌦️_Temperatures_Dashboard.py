@@ -6,7 +6,7 @@ import streamlit as st
 
 # ----- Page configs -----
 st.set_page_config(
-        page_title = "Fallou Fall Portfolio" ,
+        page_title = Portfolio" ,
         page_icon = "📊" ,
         )
 
@@ -61,11 +61,11 @@ max_date = temps_df['Date'].max()
 min_temp = temps_df['AvgTemperatureCelsius'].min()  # TODO
 max_temp =  temps_df['AvgTemperatureCelsius'].max()  # TODO
 
-min_temp_city = temps_df.loc[temps_df['AvgTemperatureCelsius'].idxmin(), 'City'] # TODO
-min_temp_date = temps_df.loc[temps_df['AvgTemperatureCelsius'].idxmin(), 'Date']   # TODO
+min_temp_city =# TODO
+min_temp_date =   # TODO
 
-max_temp_city = temps_df.loc[temps_df['AvgTemperatureCelsius'].idxmax(), 'City']  # TODO
-max_temp_date = temps_df.loc[temps_df['AvgTemperatureCelsius'].idxmax(), 'Date']  # TODO
+max_temp_city =  # TODO
+max_temp_date =   # TODO
 
 # ----- Displaying the extracted information metrics -----
 
@@ -148,7 +148,9 @@ if unique_countries_list is not None and len(selected_cities) > 0 :
     for city in selected_cities :
         city_df = temps_df.query('City ==@city')  # TODO: get a dataframe with the rows of the selected city
         city_df_period = city_df.query(
-                'Date>@start_date & Date<@end_date')  # TODO: get a dataframe with the rows of the selected city and the selected period of time using the Date column and any of the <, >, <=, >= operators to compare with start_date and end_date
+                'Date>@start_date & Date<@end_date')
+            
+          
         plt.hist(city_df['AvgTemperatureCelsius'] , bins = 20 , edgecolor = 'white' , alpha = 0.6 ,
                 label = f'AVG °C in {city}')  # TODO: plot each city histogram in the same plot and use the label parameter to set the legend name for each city
 
